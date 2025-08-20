@@ -1,0 +1,15 @@
+baseURL: "https://dev.hdtok.eu.org"
+languageCode: "id-ID"
+title: "Blog Saya"
+theme: "hextra"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 2
