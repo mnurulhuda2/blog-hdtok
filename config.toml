@@ -1,0 +1,27 @@
+baseURL = "https://dev.hadetok.eu.org"
+languageCode = "id-ID"
+title = "Blog Saya"
+theme = "hextra"
+
+# Disable comments
+[params]
+  # Nama penulis
+  author = "Nama Kamu"
+  # Deskripsi blog
+  description = "Blog pribadi dengan Hugo dan Hextra"
+
+# Menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+module:
+  imports:
+    - path: github.com/imfing/hextra
